@@ -15,3 +15,4 @@ let currentUserName
 
 let someVariable = "10" + 10;
 console.log(typeof someVariable)
+console.log(someVariable)
