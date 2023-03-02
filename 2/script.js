@@ -1,24 +1,21 @@
-
-const operator = prompt('Enter operator ( either +, -, * or / ): ');
-
-
-const number1 = parseFloat(prompt('Enter first number: '));
-const number2 = parseFloat(prompt('Enter second number: '));
-
-let result;
-
-if (operator === '+') {
-    result = number1 + number2;
+const a = parseFloat(prompt("a = ",));
+const b = parseFloat(prompt("b = ",));
+function sum(a, b) {
+    return a + b;
 }
-else if (operator === '-') {
-    result = number1 - number2;
-}
-else if (operator === '*') {
-    result = number1 * number2;
-}
-else {
-    result = number1 / number2;
-}
+alert(`${a} + ${b} = ` + sum(a,b));
 
+function minus(a, b){
+    return a - b;
+}
+alert(`${a} - ${b} = ` + minus(a,b));
 
-console.log(`${number1} ${operator} ${number2} = ${result}`);
+function multiply(a, b){
+    return a * b;
+}
+alert(`${a} * ${b} = ` + multiply(a,b));
+
+function divide(a, b){
+    return a / b;
+}
+alert(`${a} / ${b} = ` + divide(a,b));
