@@ -1,7 +1,7 @@
 // task 1
 
 let admin
-let name = "John"
+const name = "John"
 admin = name;
 
 alert(admin)
@@ -13,6 +13,6 @@ let currentUserName
 
 // task 3
 
-let someVariable = "10" + 10;
+const someVariable = "10" + 10;
 console.log(typeof someVariable)
 console.log(someVariable)
